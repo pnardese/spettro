@@ -5,18 +5,23 @@ Di seguito un esempio di immagine prodotta di una sorgente LED.
 
 opzioni spotread:
 
-ambient light spectrum
+ambient light spectrum:
+
 spotread -v -s -H -a -T "file.sp"
 
-reflectance spectrum
+reflectance spectrum:
+
 spotread -v -s -H -T "file_refl.sp"
 
-transmission spectrum
+transmission spectrum:
+
 spotread -v -s -H -t -T "file_trans.sp"
 
-emission spectrum
+emission spectrum:
+
 spotread -v -s -H -e -T "file_emiss.sp"
 
-flash emission spectrum
+flash emission spectrum:
+
 spotread -v -s -H -f -T "file_flash.sp"
 
