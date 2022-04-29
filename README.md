@@ -10,11 +10,11 @@ Di seguito un esempio di immagine prodotta di una sorgente LED.
 spotread -v -s -H -a -T "file.sp"
 
 ### flags:
--v: verbose mode
--s: print spectrum for each reading
--H: use high resolution mode
--a: use ambient mode
--T: display correlated color temperatures, CRI, TLCI & IES TM-30-15
+* -v: verbose mode
+* -s: print spectrum for each reading
+* -H: use high resolution mode
+* -a: use ambient mode
+* -T: display correlated color temperatures, CRI, TLCI & IES TM-30-15
 
 ## reflectance spectrum:
 
